@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvSemRegistros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sem registros de alunos"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

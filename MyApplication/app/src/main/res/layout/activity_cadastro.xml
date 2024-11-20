@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo de RA -->
+    <EditText
+        android:id="@+id/etRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RA"
+        android:inputType="number" />
+
+    <!-- Campo de Nome -->
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <!-- Campo de CEP -->
+    <EditText
+        android:id="@+id/etCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:inputType="number" />
+
+    <!-- Botão de Buscar CEP -->
+    <Button
+        android:id="@+id/btnBuscarCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar CEP"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Campo de Logradouro -->
+    <EditText
+        android:id="@+id/etLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logradouro"
+        android:enabled="false" />
+
+    <!-- Campo de Complemento -->
+    <EditText
+        android:id="@+id/etComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:inputType="text" />
+
+    <!-- Campo de Bairro -->
+    <EditText
+        android:id="@+id/etBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:enabled="false" />
+
+    <!-- Campo de Cidade -->
+    <EditText
+        android:id="@+id/etCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:enabled="false" />
+
+    <!-- Campo de UF -->
+    <EditText
+        android:id="@+id/etUf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:enabled="false" />
+
+    <!-- Botão de Salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
